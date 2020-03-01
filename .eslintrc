@@ -16,7 +16,6 @@
     "react/prop-types": 0,
     "prettier/prettier": 0,
     "brace-style": 0,
-    "linebreak-style": 0,
     "jsx-quotes": 0,
     "sort-imports": 0,
     "import/no-named-as-default": 0,
@@ -55,7 +54,13 @@
     "no-unused-expressions": 0,
     "react/self-closing-comp": 0,
     "no-trailing-spaces": 0,
-    "eol-last": 0
+    "eol-last": 0,
+    "linebreak-style": [0, "windows"],
+    "object-curly-newline": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-restricted-globals": 0
   },
   "extends": [
     "eslint:recommended",
