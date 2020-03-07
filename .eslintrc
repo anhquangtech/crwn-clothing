@@ -61,7 +61,9 @@
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "no-restricted-globals": 0,
-    "react/prefer-stateless-function": 0
+    "react/prefer-stateless-function": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/button-has-type": 0
   },
   "extends": [
     "eslint:recommended",
