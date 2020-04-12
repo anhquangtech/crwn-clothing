@@ -7,12 +7,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-config-react-app": "^5.2.1",
     "firebase": "^7.10.0",
     "gh-pages": "^2.2.0",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.7",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -28,13 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "linting": "eslint src",
-    "prettier": "prettier \"src/**/*.{js,jsx,css}\"",
-    "format": "yarn run prettier -- --write"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -49,10 +40,10 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-react": "^7.18.3",
-    "prettier": "1.19.1"
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^2.0.4"
   }
 }
